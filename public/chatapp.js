@@ -247,7 +247,7 @@ async function RemoveMember(e){
 
 async function changeAdmin(e){
   e.preventDefault();
-  const memberEmail=prompt('Enter Member Email You want to remove')
+  const memberEmail=prompt('Enter Member Email You want to make admin')
   try {
     let data={
       groupid:e.target.parentElement.getAttribute('groupId'),
