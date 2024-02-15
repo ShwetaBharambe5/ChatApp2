@@ -33,7 +33,7 @@ const groupRoutes=require('./routes/group')
 const User=require('./models/user');
 const Message=require('./models/chat');
 const Group=require('./models/group');
-const UserGroup=require('./models/usergroup');
+const UserGroup=require('./models/user-group');
 
 
 app.use(cors({

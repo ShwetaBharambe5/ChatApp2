@@ -1,7 +1,7 @@
 const User=require('../models/user');
 const Message=require('../models/chat');
 const Group = require('../models/group');
-const UserGroup = require('../models/usergroup');
+const UserGroup = require('../models/user-group');
 
 async function createNewGroup(req,res,next){
     const {groupname}=req.body;
